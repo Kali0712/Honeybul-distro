@@ -1,0 +1,1062 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Honeybul-1.20.1",
+      "name": "Honeybul",
+      "description": "Honeybul Running Minecraft 1.20.1 (Forge v47.3.0)",
+      "icon": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/serverimg.png",
+      "version": "1.0.0",
+      "address": "121.156.239.242:25565",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.3.0",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7398,
+            "MD5": "d295c4a25914cc6486c2e501ef432b18",
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.3.0/lowcodelanguage-1.20.1-47.3.0.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.3.0",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16542,
+                "MD5": "826cb4d525749099af9ecb33b732fb84",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/versions/1.20.1-forge-47.3.0/1.20.1-forge-47.3.0.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.3.0",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118685,
+                "MD5": "2ef1c9adb09cc3592e5e7185c90570c9",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.3.0/fmlcore-1.20.1-47.3.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.3.0",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16516,
+                "MD5": "f457a3acdf187aa53ca5cbac9a951fcf",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.3.0/javafmllanguage-1.20.1-47.3.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.3.0",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4998,
+                "MD5": "09464464e54df9838666d62cf151c2c0",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.3.0/mclanguage-1.20.1-47.3.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.3.0:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2753075,
+                "MD5": "4804c269e3b593655a9526743f455ef8",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/net/minecraftforge/forge/1.20.1-47.3.0/forge-1.20.1-47.3.0-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.3.0:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4792900,
+                "MD5": "505bc8230f0e393e853739df4e71da99",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/net/minecraftforge/forge/1.20.1-47.3.0/forge-1.20.1-47.3.0-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 125428,
+                "MD5": "3957b18bf02a62edcb6726d074b90b08",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/org/ow2/asm/asm/9.7/asm-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73426,
+                "MD5": "53a46610df6a8dbc4ff85b8fd4cdea66",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "ea5cad3e0cbd2520688e4b0b5c4218e7",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 93784,
+                "MD5": "e7d6e20888e6fd99605f4c5fe1dfa8b0",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34776,
+                "MD5": "910ac9c691023f1a9ff33c413ae9fbf6",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.1.6",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24124,
+                "MD5": "4b4fe7e512819804660d621bf11c7381",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/net/minecraftforge/coremods/5.1.6/coremods-5.1.6.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.3.0",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 264538,
+                "MD5": "cad68c5d61009b7e94fac7150f3f1dcf",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.3.0/fmlloader-1.20.1-47.3.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.3.0",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170830,
+                "MD5": "572320060e2c3105df15da32091de640",
+                "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.3.0/fmlearlydisplay-1.20.1-47.3.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.ncpbails:alexsdelight:1.5@jar",
+          "name": "Alex's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 55398,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/alexsdelight-1.5.jar",
+            "MD5": "b969e136e1f9a70c42dd102ed8359b40"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:alexsmobs:1.22.8@jar",
+          "name": "Alex's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 26055355,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/alexsmobs-1.22.8.jar",
+            "MD5": "0ad246393c7f9849df1e3e0af7f28872"
+          }
+        },
+        {
+          "id": "team.creative:ambientsounds:6.0.3@jar",
+          "name": "AmbientSounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 85328184,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/AmbientSounds_FORGE_v6.0.3_mc1.20.1.jar",
+            "MD5": "a1ccab8ee80137ffc3ff449b116d0953"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.1+mc1.20.1@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47428,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/appleskin-forge-mc1.20.1-2.5.1.jar",
+            "MD5": "dae63cea9c951dda542a4005ceef3953"
+          }
+        },
+        {
+          "id": "net.mcreator:aquaculturedelight:1.0.0@jar",
+          "name": "Aquaculture Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 101228,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/aquaculture_delight_1.0.0_forge_1.20.1.jar",
+            "MD5": "d34013de56ec48d2923bb398b6d18e11"
+          }
+        },
+        {
+          "id": "com.teammetallurgy:aquaculture:2.5.2@jar",
+          "name": "Aquaculture 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 601194,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/Aquaculture-1.20.1-2.5.2.jar",
+            "MD5": "857dc4f379d52f75fab2ad816709e502"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580602,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          }
+        },
+        {
+          "id": "net.blay09.mods:balm:7.3.6@jar",
+          "name": "Balm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 373582,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/balm-forge-1.20.1-7.3.6-all.jar",
+            "MD5": "3810eb5667b2e0e3f9b948bbc1db0350"
+          }
+        },
+        {
+          "id": "top.theillusivec4:caelus:3.2.0+1.20.1@jar",
+          "name": "Caelus API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 40125,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/caelus-forge-3.2.0+1.20.1.jar",
+            "MD5": "e37854c44b1849b753afc4a205f31b46"
+          }
+        },
+        {
+          "id": "moe.caramel.chat:caramelchat:1.1.1@jar",
+          "name": "CaramelChat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 133706,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/caramelChat-mc1.20.1-forge-1.1.1.jar",
+            "MD5": "b1ca66afa0362f3adad1b5760b46335a"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:citadel:2.5.6@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3180586,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/citadel-2.5.6-1.20.1.jar",
+            "MD5": "aee523c8e06404f9e7d1373b25158c8a"
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:12.0.0.4@jar",
+          "name": "Clumps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20299,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/Clumps-forge-1.20.1-12.0.0.4.jar",
+            "MD5": "c9efc71827df6ab51e8dd0e40c3d4975"
+          }
+        },
+        {
+          "id": "net.blay09.mods:cookingforblockheads:16.0.6@jar",
+          "name": "CookingForBlockheads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 815676,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/cookingforblockheads-forge-1.20.1-16.0.6.jar",
+            "MD5": "30393a7bbd9bf85e11360db14cd13e27"
+          }
+        },
+        {
+          "id": "cn.mcmod:corn_delight:1.0.4-1.20.1@jar",
+          "name": "Corn Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 142501,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/corn_delight-1.0.4-1.20.1.jar",
+            "MD5": "a42ed2de00253c4df6d1989493e5d138"
+          }
+        },
+        {
+          "id": "de.maxhenkel:corpse:1.20.1-1.0.12@jar",
+          "name": "Corpse",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 243181,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/corpse-forge-1.20.1-1.0.12.jar",
+            "MD5": "7378c034a8d0b2b3bf50701d6f25c63c"
+          }
+        },
+        {
+          "id": "alabaster.crabbersdelight:crabbersdelight:1.1.7@jar",
+          "name": "Crabber's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 371100,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/CrabbersDelight-1.20.1-1.1.7.jar",
+            "MD5": "4c1a6e7420513d117db3c73a4d465066"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.11.33@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1114431,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/CreativeCore_FORGE_v2.11.33_mc1.20.1.jar",
+            "MD5": "aa4428ca4f0d4412f202161dfac07d73"
+          }
+        },
+        {
+          "id": "com.ncpbails:culturaldelights:0.16.1@jar",
+          "name": "Cultural Delights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 242274,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/culturaldelights-0.16.1.jar",
+            "MD5": "2f231f3c930cabd419fedcf23caab8ca"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:5.9.1+1.20.1@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 382970,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/curios-forge-5.9.1+1.20.1.jar",
+            "MD5": "c4bef497fe84a0140652e43b267bd6ee"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.28+mc1.20.1@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1316946,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/embeddium-0.3.28+mc1.20.1.jar",
+            "MD5": "832b5f9a12f38bae289b0da1d99a4482"
+          }
+        },
+        {
+          "id": "xyz.apex.forge.fantasyfurniture.core:fantasyfurniture:9.0.0@jar",
+          "name": "Fantasy's Furniture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3202951,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/fantasyfurniture-1.20.1-9.0.0.jar",
+            "MD5": "0712007756c04d20100121c31510d346"
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-1.2.4@jar",
+          "name": "Farmer's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2915349,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/FarmersDelight-1.20.1-1.2.4.jar",
+            "MD5": "5b6bee961b278a3edd6e3935b061fbaa"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:6.0.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123034,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/ferritecore-6.0.1-forge.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383"
+          }
+        },
+        {
+          "id": "dev.xkmc.fruitsdelight.init:fruitsdelight:1.0.11@jar",
+          "name": "Fruits Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1842997,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/fruitsdelight-1.0.11.jar",
+            "MD5": "69da84e69696e4b8cb07a1b0f7749b0b"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib:4.4.7@jar",
+          "name": "GeckoLib 4",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 991110,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.4.7.jar",
+            "MD5": "84bc00493b180b13fa3bab48dff9d2d8"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:iceandfire:2.1.13-1.20.1-beta-4@jar",
+          "name": "Ice and Fire",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21767038,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/iceandfire-2.1.13-1.20.1-beta-4.jar",
+            "MD5": "18ebf4cd486496eed354fd973e5e74d8"
+          }
+        },
+        {
+          "id": "cpw.mods:inventorysorter:23.0.1@jar",
+          "name": "Simple Inventory Sorter",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 52148,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/inventorysorter-1.20.1-23.0.1.jar",
+            "MD5": "2adaeb7ef5ca7bc39024e536c22168a4"
+          }
+        },
+        {
+          "id": "io.redspace.ironsspellbooks:irons_spellbooks:1.20.1-3.3.0@jar",
+          "name": "Iron's Spells 'n Spellbooks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8652388,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/irons_spellbooks-1.20.1-3.3.0.jar",
+            "MD5": "42c6b2253102a81301a6fe5f331d0c90"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:11.9.2+forge@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 545779,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/Jade-1.20.1-forge-11.9.2.jar",
+            "MD5": "6ed433e54fb6c83868ef317368f449f3"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.11.0.43@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1319245,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/jei-1.20.1-forge-15.11.0.43.jar",
+            "MD5": "0b7d92fcfca615f6f5d91c3cdc8be7d0"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.10.1@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7160219,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/journeymap-1.20.1-5.10.1-forge.jar",
+            "MD5": "dddc978902ed8416be39cfebdff7c22d"
+          }
+        },
+        {
+          "id": "jeresources:jeresources:1.4.0.247@jar",
+          "name": "Just Enough Resources",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 276231,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/JustEnoughResources-1.20.1-1.4.0.247.jar",
+            "MD5": "bd7166a2e9361ef5e8b616edfa2028f4"
+          }
+        },
+        {
+          "id": "com.github.l_ender:cataclysm:1.99.5@jar",
+          "name": "Cataclysm Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 48848879,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/L_Enders_Cataclysm-1.99.6-1.20.1.jar",
+            "MD5": "d6e1c9dfd516b917d6a70af81e72ac3f"
+          }
+        },
+        {
+          "id": "com.github.l_ender:lionfishapi:1.9@jar",
+          "name": "LionfishAPI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 152910,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/lionfishapi-1.9.jar",
+            "MD5": "e814e31ce3696e38e55dd39c6556d6f7"
+          }
+        },
+        {
+          "id": "noobanidus.mods:lootr:0.7.34.87@jar",
+          "name": "Lootr",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 346406,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/lootr-forge-1.20-0.7.34.87.jar",
+            "MD5": "b18a759ac0ba0ff034667643b77eca09"
+          }
+        },
+        {
+          "id": "me.xjqsh:lradd:0.2.2@jar",
+          "name": "LesRaisinsAddon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 27682306,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/lradd-1.20.1-0.2.2.jar",
+            "MD5": "763a007c28b615ec20d6d2cafadaf8dc"
+          }
+        },
+        {
+          "id": "com.mcwbridges.kikoz:mcwbridges:3.0.0@jar",
+          "name": "Macaw's Bridges",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 677705,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/mcw-bridges-3.0.0-mc1.20.1forge.jar",
+            "MD5": "27a5798467fc0799eab2505bb6a8f041"
+          }
+        },
+        {
+          "id": "com.mcwdoors.kikoz:mcwdoors:1.1.1@jar",
+          "name": "Macaw's Doors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1202279,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/mcw-doors-1.1.1forge-mc1.20.1.jar",
+            "MD5": "70a4d52ca95ecd57bcbb146e9c6950ce"
+          }
+        },
+        {
+          "id": "com.mcwfences.kikoz:mcwfences:1.1.2@jar",
+          "name": "Macaw's Fences and Walls",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 522886,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/mcw-fences-1.1.2-mc1.20.1forge.jar",
+            "MD5": "729a8ce749bb6deff288ea1791ff9602"
+          }
+        },
+        {
+          "id": "com.mcwfurnitures.kikoz:mcwfurnitures:3.3.0@jar",
+          "name": "Macaw's Furniture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1882792,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/mcw-furniture-3.3.0-mc1.20.1forge.jar",
+            "MD5": "f22230d8f84190aef6e62ca95e5da136"
+          }
+        },
+        {
+          "id": "com.mcwlights.kikoz:mcwlights:1.1.0@jar",
+          "name": "Macaw's Lights and Lamps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 517513,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/mcw-lights-1.1.0-mc1.20.1forge.jar",
+            "MD5": "539aa2ab27253c1053236e06b82374df"
+          }
+        },
+        {
+          "id": "com.mcwroofs.kikoz:mcwroofs:2.3.1@jar",
+          "name": "Macaw's Roofs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1837373,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/mcw-roofs-2.3.1-mc1.20.1forge.jar",
+            "MD5": "cacee547c4f32b57b0f238d68d4ddc2b"
+          }
+        },
+        {
+          "id": "com.mcwtrpdoors.kikoz:mcwtrpdoors:1.1.3@jar",
+          "name": "Macaw's Trapdoors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 674687,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/mcw-trapdoors-1.1.3-mc1.20.1forge.jar",
+            "MD5": "3caced7ea133ba8c51bfc309ba91df82"
+          }
+        },
+        {
+          "id": "com.mcwwindows.kikoz:mcwwindows:2.3.0@jar",
+          "name": "Macaw's Windows",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1309586,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/mcw-windows-2.3.0-mc1.20.1forge.jar",
+            "MD5": "82f6f7c58030345ddb6efa0b2ded97fd"
+          }
+        },
+        {
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.19.1+mc1.20.1@jar",
+          "name": "ModernFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 777800,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/modernfix-forge-5.19.1+mc1.20.1.jar",
+            "MD5": "9845c366faa7656df6d56f398e15135b"
+          }
+        },
+        {
+          "id": "cn.mcmod_mmf.mmlib:mysterious_mountain_lib:1.4.7-1.20.1@jar",
+          "name": "Mysterious Mountain Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 290014,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/mysterious_mountain_lib-1.4.7-1.20.1.jar",
+            "MD5": "99c86e3a17cce9bd7f7a26b2aed8e4e8"
+          }
+        },
+        {
+          "id": "net.irisshaders.iris:oculus:1.7.0@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2831148,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/optionalon/oculus-mc1.20.1-1.7.0.jar",
+            "MD5": "45b96133bb46cc61dd9778bd4fca741d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.kosmx.playeranim:playeranimator:1.0.2-rc1+1.20@jar",
+          "name": "Player Animator",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 181437,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+            "MD5": "46f8554181d4d240075ea4919d01fd01"
+          }
+        },
+        {
+          "id": "com.link:plushies:1.4.0@jar",
+          "name": "Plushie Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 690959,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/plushies-1.4.0-forge.jar",
+            "MD5": "dbee0e9ed66540c6205eb88eeb25d74b"
+          }
+        },
+        {
+          "id": "com.illusivesoulworks:polymorph:0.49.5+1.20.1@jar",
+          "name": "Polymorph",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 298759,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/polymorph-forge-0.49.5+1.20.1.jar",
+            "MD5": "50b704c0f2c18db908ce99d628889a9a"
+          }
+        },
+        {
+          "id": "eu.ha3:presencefootsteps:1.20.1-1.9.1-beta.1@jar",
+          "name": "Presence Footsteps (Forge)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7080698,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar",
+            "MD5": "e42d774ced61f8c62c58f3111aa5e3f5"
+          }
+        },
+        {
+          "id": "com.abdelaziz:saturn:0.1.3@jar",
+          "name": "Saturn",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 92319,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/saturn-mc1.20.1-0.1.3.jar",
+            "MD5": "56a9a1cc126425b04acc5f8bd7ed67f1"
+          }
+        },
+        {
+          "id": "bl4ckscor3.mod:sit:1.3.5@jar",
+          "name": "Sit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14510,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/sit-1.20.1-1.3.5.jar",
+            "MD5": "87f16ae5de8125e49f3740a45b3fc1c7"
+          }
+        },
+        {
+          "id": "com.talhanation:smallships:2.0.0-b1.4@jar",
+          "name": "Small Ships",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1816687,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/smallships-forge-1.20.1-2.0.0-b1.4.jar",
+            "MD5": "c52bf453f18b87f43cae36acf628eb60"
+          }
+        },
+        {
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.1-1.4.5@jar",
+          "name": "Sound Physics Remastered",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 196564,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/sound-physics-remastered-forge-1.20.1-1.4.5.jar",
+            "MD5": "e819065ae0a3d034c7804e2b2e16a45f"
+          }
+        },
+        {
+          "id": "com.tacz.guns:tacz:1.0.2@jar",
+          "name": "Timeless & Classics Guns: Zero",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25153131,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/tacz-1.20.1-1.0.2-release.jar",
+            "MD5": "ad7af7f4429744c0e8e504d68edac8ec"
+          }
+        },
+        {
+          "id": "com.tiviacz:travelersbackpack:9.1.15@jar",
+          "name": "Traveler's Backpack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 907455,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/travelersbackpack-forge-1.20.1-9.1.15.jar",
+            "MD5": "cc1940c2522683f7da0cde967c81abe0"
+          }
+        },
+        {
+          "id": "twilightforest:twilightforest:4.3.2508@jar",
+          "name": "The Twilight Forest",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23332091,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/twilightforest-1.20.1-4.3.2508-universal.jar",
+            "MD5": "0e1ca36ec2ca7e35059dea1600aa31ee"
+          }
+        },
+        {
+          "id": "net.blay09.mods:waystones:14.1.3@jar",
+          "name": "Waystones",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 482947,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/waystones-forge-1.20-14.1.3.jar",
+            "MD5": "4a640d709a01443c4d2809c7283c2401"
+          }
+        },
+        {
+          "id": "fr.shohqapik:w2pets:1.0@jar",
+          "name": "Waystones Teleport Pets",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 119264,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/WaystonesTeleportPets-1.20-1.20.1--1.2.jar",
+            "MD5": "ce4bbfff531c30681c061df8b0c28efd"
+          }
+        },
+        {
+          "id": "net.wurstclient.zoom:wi_zoom:1.5-MC1.20.1-Forge@jar",
+          "name": "WI Zoom",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 141897,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/forgemods/required/WI-Zoom-1.5-MC1.20.1-Forge.jar",
+            "MD5": "754b287265cb26821883f2afcab701ae"
+          }
+        },
+        {
+          "id": "ComplementaryShaders_v4.7.2.zip",
+          "name": "ComplementaryShaders_v4.7.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3456306,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/files/shaderpacks/ComplementaryShaders_v4.7.2.zip",
+            "MD5": "9eab6a42fd4c81b8e0837aacab3f0435",
+            "path": "shaderpacks/ComplementaryShaders_v4.7.2.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
