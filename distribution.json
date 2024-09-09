@@ -1046,6 +1046,17 @@
           }
         },
         {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 9087,
+            "url": "https://raw.githubusercontent.com/Kali0712/Honeybul-distro/main/servers/Honeybul-1.20.1/files/options.txt",
+            "MD5": "c9e854adab276a3d1fbd680741fbb398",
+            "path": "options.txt"
+          }
+        },
+        {
           "id": "ComplementaryShaders_v4.7.2.zip",
           "name": "ComplementaryShaders_v4.7.2.zip",
           "type": "File",
